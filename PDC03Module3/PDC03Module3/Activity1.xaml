@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03Module3.Activity1">
+    <ContentPage.Content>
+        <StackLayout Margin="0,2,0,2"
+                     Padding="5,5,5,5">
+            
+            
+            <Label Text="Yellow"
+                HorizontalOptions="Start"
+                   BackgroundColor="Yellow"/>
+            
+            <Entry Placeholder="Username"></Entry>
+            <Button Text="Submit"></Button>
+
+            <Label Text="Cyan"
+                HorizontalOptions="Center"
+                   BackgroundColor="Cyan"/>
+
+            <Label Text="Cornsilk"
+                HorizontalOptions="End"
+                   BackgroundColor="Cornsilk"/>
+
+
+            <Label Text="Pink"
+                HorizontalOptions="Fill"
+                   BackgroundColor="Pink"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
